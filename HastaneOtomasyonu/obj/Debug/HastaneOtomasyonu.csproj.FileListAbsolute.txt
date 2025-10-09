@@ -1,0 +1,14 @@
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.Form1.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.Properties.Resources.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.GenerateResource.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\bin\Debug\HastaneOtomasyonu.exe.config
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\bin\Debug\HastaneOtomasyonu.exe
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\bin\Debug\HastaneOtomasyonu.pdb
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.exe
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.pdb
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.exe.config
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.KayıtPanel.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.İslemler.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\c#\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.Randevu.resources
