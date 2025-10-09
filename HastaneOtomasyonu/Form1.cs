@@ -19,13 +19,22 @@ namespace HastaneOtomasyonu
             InitializeComponent();
         }
         İslemler islem = new İslemler();
+        SqlDataReader dr;
+        SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
+
+        
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Emre" && Convert.ToInt16(textBox2.Text) == 1234)
+            SqlCommand cmd = new SqlCommand("Select * From Users Where UserName=@username and UserPassword=@userpassword", con);
+            cmd.Parameters.AddWithValue("@username", textBox1.Text);
+            cmd.Parameters.AddWithValue("@userpassword", textBox2.Text);
+            con.Open();
+            dr = cmd.ExecuteReader();
+            if (dr.Read())
             {
-                MessageBox.Show("Giriş başarılı, işlemler sayfasına yönlendiriliyorsunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                islem.Show();
+                MessageBox.Show("Hoş geldiniz," + " " + textBox1.Text + " " + "Başarılı bir şekilde giriş yaptınız. İşlemler sayfasına yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
+                islem.Show();
             }
             else
             {
@@ -35,9 +44,9 @@ namespace HastaneOtomasyonu
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Kayıt paneline yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Hide();
             kayıtPanel.Show();
-            
         }
     }
 }
