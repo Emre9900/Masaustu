@@ -169,7 +169,7 @@
             this.Name = "Randevu";
             this.Text = "Randevu";
             this.Load += new System.EventHandler(this.Randevu_Load);
-            this.ResumeLayout(false);
+            this.ResumeLayout(true);
             this.PerformLayout();
 
         }

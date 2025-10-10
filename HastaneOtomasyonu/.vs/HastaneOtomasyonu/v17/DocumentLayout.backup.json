@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\secenekler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:secenekler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\secenekler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:secenekler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\\u0130slemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:\u0130slemler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\taburcuolanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:taburcuolanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\kalanhastalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:kalanhastalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\hastaneotomasyonu\\taburcuolanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E421CED5-1F56-41B3-B19E-E8D1C9636DDC}|HastaneOtomasyonu.csproj|solutionrelative:taburcuolanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,62 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwDMAAAABAAAAAAAAAA==",
+              "Title": "Secenekler.cs",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Secenekler.cs",
+              "RelativeDocumentMoniker": "Secenekler.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Secenekler.cs*",
+              "RelativeToolTip": "Secenekler.cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAjwCoAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T09:37:53.959Z",
+              "WhenOpened": "2025-10-10T13:16:51.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KalanHastalar.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\KalanHastalar.cs",
-              "RelativeDocumentMoniker": "KalanHastalar.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\KalanHastalar.cs [Tasar\u0131m]",
-              "RelativeToolTip": "KalanHastalar.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T15:28:42.642Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Randevu.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Randevu.cs",
-              "RelativeDocumentMoniker": "Randevu.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Randevu.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Randevu.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T15:28:34.767Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Form1.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
+              "Title": "Secenekler.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Secenekler.cs",
+              "RelativeDocumentMoniker": "Secenekler.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\Secenekler.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "Secenekler.cs [Tasar\u0131m]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T09:37:01.238Z",
+              "WhenOpened": "2025-10-10T13:16:49.907Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "\u0130slemler.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\\u0130slemler.cs",
-              "RelativeDocumentMoniker": "\u0130slemler.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\\u0130slemler.cs [Tasar\u0131m]",
-              "RelativeToolTip": "\u0130slemler.cs [Tasar\u0131m]",
+              "Title": "TaburcuOlanlar.cs",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\TaburcuOlanlar.cs",
+              "RelativeDocumentMoniker": "TaburcuOlanlar.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\TaburcuOlanlar.cs",
+              "RelativeToolTip": "TaburcuOlanlar.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwCAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T15:23:59.13Z",
+              "WhenOpened": "2025-10-10T13:12:24.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaburcuOlanlar.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\TaburcuOlanlar.cs",
+              "RelativeDocumentMoniker": "TaburcuOlanlar.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\HastaneOtomasyonu\\TaburcuOlanlar.cs [Tasar\u0131m]",
+              "RelativeToolTip": "TaburcuOlanlar.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T13:12:21.553Z",
               "EditorCaption": " [Tasar\u0131m]"
             }
           ]

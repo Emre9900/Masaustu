@@ -17,7 +17,6 @@ namespace HastaneOtomasyonu
         {
             InitializeComponent();
         }
-
         private void Randevu_Load(object sender, EventArgs e)
         {
             
