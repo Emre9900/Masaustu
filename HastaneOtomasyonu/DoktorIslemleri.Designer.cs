@@ -1,6 +1,6 @@
 ﻿namespace HastaneOtomasyonu
 {
-    partial class TaburcuOlanlar
+    partial class DoktorIslemleri
     {
         /// <summary>
         /// Required designer variable.
@@ -29,56 +29,54 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tarih_label = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.randevu_listesi_label = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label2
+            // tarih_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 62);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Son Güncellenme Saati :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(200, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(406, 28);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Taburcu Olan ve Nakil Giden Hastalar";
+            this.tarih_label.AutoSize = true;
+            this.tarih_label.Location = new System.Drawing.Point(12, 9);
+            this.tarih_label.Name = "tarih_label";
+            this.tarih_label.Size = new System.Drawing.Size(70, 13);
+            this.tarih_label.TabIndex = 0;
+            this.tarih_label.Text = "Tarih / Saat :";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 91);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 59);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 328);
-            this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.Size = new System.Drawing.Size(390, 150);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // randevu_listesi_label
+            // 
+            this.randevu_listesi_label.AutoSize = true;
+            this.randevu_listesi_label.Location = new System.Drawing.Point(168, 43);
+            this.randevu_listesi_label.Name = "randevu_listesi_label";
+            this.randevu_listesi_label.Size = new System.Drawing.Size(83, 13);
+            this.randevu_listesi_label.TabIndex = 2;
+            this.randevu_listesi_label.Text = "Randevu Listesi";
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // TaburcuOlanlar
+            // DoktorIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(417, 450);
+            this.Controls.Add(this.randevu_listesi_label);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "TaburcuOlanlar";
-            this.Text = "TaburcuOlanlar";
-            this.Load += new System.EventHandler(this.TaburcuOlanlar_Load);
+            this.Controls.Add(this.tarih_label);
+            this.Name = "DoktorIslemleri";
+            this.Text = "DoktorIslemleri";
+            this.Load += new System.EventHandler(this.DoktorIslemleri_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -87,9 +85,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label tarih_label;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label randevu_listesi_label;
         private System.Windows.Forms.Timer timer1;
     }
 }

@@ -5,20 +5,35 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HastaneOtomasyonu
 {
-    public partial class TaburcuOlanlar : Form
+    public partial class DoktorIslemleri : Form
     {
-        SqlDataReader dr;
-        SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
-        İslemler islemler = new İslemler();
-        public TaburcuOlanlar()
+        public DoktorIslemleri()
         {
             InitializeComponent();
+
+        }
+        SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
+        private void DoktorIslemleri_Load(object sender, EventArgs e)
+        {
+            tarih_label.Text = DateTime.Now.ToLongDateString();
+            con.Open();
+            SqlDataAdapter da = new SqlDataAdapter("Select * From HospitalPatients", con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
+
+            timer1.Interval = 300000;
+            timer1.Tick += timer1_Tick;
+            timer1.Start();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -26,26 +41,9 @@ namespace HastaneOtomasyonu
             timer1.Enabled = false;
             timer1.Stop();
 
-            hasta_guncelle();
 
             timer1.Start();
         }
-
-        private void TaburcuOlanlar_Load(object sender, EventArgs e)
-        {
-            con.Open();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From HospitalPatients", con);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
-            hasta_guncelle();
-
-            timer1.Interval = 300000;
-            timer1.Tick += timer1_Tick;
-            timer1.Start();
-        }
-
         public void hasta_guncelle()
         {
             try
@@ -55,7 +53,7 @@ namespace HastaneOtomasyonu
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dataGridView1.DataSource = dt;
-                label2.Text = "Son Güncelleme:" + DateTime.Now.ToString();
+                tarih_label.Text = "Günün Tarihi: "+DateTime.Now.ToString()+" "+"Tablonun Son Güncellenme Zamanı:" + DateTime.Now.ToString();
             }
             catch (Exception ex)
             {
@@ -65,15 +63,6 @@ namespace HastaneOtomasyonu
             {
                 con.Close();
             }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
         }
     }
 }

@@ -37,6 +37,8 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.saat = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // monthCalendar1
@@ -141,6 +143,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(167, 21);
             this.comboBox3.TabIndex = 9;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -152,11 +155,30 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // saat
+            // 
+            this.saat.AutoSize = true;
+            this.saat.Location = new System.Drawing.Point(284, 159);
+            this.saat.Name = "saat";
+            this.saat.Size = new System.Drawing.Size(75, 13);
+            this.saat.TabIndex = 11;
+            this.saat.Text = "Muayne Saati:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(475, 159);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(167, 21);
+            this.comboBox4.TabIndex = 12;
+            // 
             // Randevu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 379);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.saat);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -169,7 +191,7 @@
             this.Name = "Randevu";
             this.Text = "Randevu";
             this.Load += new System.EventHandler(this.Randevu_Load);
-            this.ResumeLayout(true);
+            this.ResumeLayout(false);
             this.PerformLayout();
 
         }
@@ -185,5 +207,7 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label saat;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }

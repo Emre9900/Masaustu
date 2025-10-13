@@ -28,3 +28,8 @@ C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\Hast
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.pdb
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.KalanHastalar.resources
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.TaburcuOlanlar.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\bin\Debug\HastaneOtomasyonu.exe.manifest
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\bin\Debug\HastaneOtomasyonu.application
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.exe.manifest
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.application
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.DoktorIslemleri.resources

@@ -32,16 +32,20 @@ namespace HastaneOtomasyonu
             cmd.Parameters.AddWithValue("@userpassword", textBox2.Text);
             con.Open();
             dr = cmd.ExecuteReader();
-                if (dr.Read())
+           if (dr.Read())
                 {
-
-                    MessageBox.Show("Hoş geldiniz," + " " + textBox1.Text + " " + "Başarılı bir şekilde giriş yaptınız. İşlemler sayfasına yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Hoş geldiniz," + " " + textBox1.Text + " " + "Başarılı bir şekilde giriş yaptınız. İşlemler sayfasına yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
                     islem.Show();
                     con.Close();
 
                 }
-            
+            else
+            {
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı, lütfen tekrar deneyiniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            con.Close();
         }
 
 
