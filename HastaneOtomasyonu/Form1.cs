@@ -31,6 +31,7 @@ namespace HastaneOtomasyonu
             cmd.Parameters.AddWithValue("@username", textBox1.Text);
             cmd.Parameters.AddWithValue("@userpassword", textBox2.Text);
             con.Open();
+
             dr = cmd.ExecuteReader();
            if (dr.Read())
                 {

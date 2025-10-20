@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Text;
+using System.Windows.Forms;
 
 namespace HastaneOtomasyonu
 {
@@ -17,30 +13,22 @@ namespace HastaneOtomasyonu
         {
             InitializeComponent();
         }
-        SqlDataReader dr;
-        SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
+        SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true)
-            {
-                textBox3.UseSystemPasswordChar = false;
-                textBox3.UseSystemPasswordChar = false;
-            }
-            else if (radioButton1.Checked == false)
-            {
-                textBox3.UseSystemPasswordChar = true;
-                textBox4.UseSystemPasswordChar = true;
-            }
+            bool showPassword = radioButton1.Checked;
+            textBox3.UseSystemPasswordChar = !showPassword;
+            textBox4.UseSystemPasswordChar = !showPassword;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == null && textBox2.Text == null && textBox3.Text == null && textBox4.Text == null)
+            if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                string.IsNullOrWhiteSpace(textBox2.Text) ||
+                string.IsNullOrWhiteSpace(textBox3.Text) ||
+                string.IsNullOrWhiteSpace(textBox4.Text))
             {
                 MessageBox.Show("Lütfen tüm alanları doldurunuz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -54,51 +42,59 @@ namespace HastaneOtomasyonu
 
             try
             {
-                con.Open();
+                    con.Open();
 
-                SqlCommand checkCmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE UserName = @username", con);
-                checkCmd.Parameters.AddWithValue("@username", textBox1.Text);
-                int userExists = (int)checkCmd.ExecuteScalar();
+                    using (SqlCommand checkCmd = new SqlCommand(
+                        "SELECT COUNT(*) FROM Users WHERE UserName = @username OR UserMailAdress = @usermail", con))
+                    {
+                        checkCmd.Parameters.AddWithValue("@username", textBox1.Text);
+                        checkCmd.Parameters.AddWithValue("@usermail", textBox2.Text);
+                        int userExists = (int)checkCmd.ExecuteScalar();
+                        if (userExists > 0)
+                        {
+                            MessageBox.Show("Bu kullanıcı adı veya mail adresi zaten kullanılmaktadır. Lütfen farklı bir kullanıcı adı ve mail adresi seçiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+                    }
 
-                if (userExists > 0)
-                {
-                    MessageBox.Show("Bu kullanıcı adı zaten kullanılmaktadır. Lütfen farklı bir kullanıcı adı seçiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    string hashedPassword;
+                    using (SHA1 sha = new SHA1CryptoServiceProvider())
+                    {
+                        byte[] hashBytes = sha.ComputeHash(Encoding.UTF8.GetBytes(textBox3.Text));
+                        hashedPassword = Convert.ToBase64String(hashBytes);
+                    }
+
+                    // Kullanıcıyı ekle
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Users (UserName, UserPassword, UserRole, UserRegisterDate, UserMailAdress) VALUES (@username, @userpassword, @userrole, @userregisterdate, @usermail)", con))
+                    {
+                        cmd.Parameters.AddWithValue("@username", textBox1.Text);
+                        cmd.Parameters.AddWithValue("@userpassword", hashedPassword);
+                        cmd.Parameters.AddWithValue("@userrole", "User");
+                        cmd.Parameters.AddWithValue("@userregisterdate", DateTime.Now);
+                        cmd.Parameters.AddWithValue("@usermail", textBox2.Text);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Başarıyla kayıt gerçekleştirdiniz. Giriş sayfasına yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Hide();
+                            Form1 giris = new Form1();
+                            giris.Show();
+                        }
+                    }
                 }
-
-                SqlCommand cmd = new SqlCommand("INSERT INTO Users (UserName, UserPassword, UserRole, UserRegisterDate, UserMailAdress) VALUES (@username, @userpassword, @userrole, @userregisterdate, @usermail)", con);
-                cmd.Parameters.AddWithValue("@username", textBox1.Text);
-                cmd.Parameters.AddWithValue("@userpassword", textBox3.Text);
-                cmd.Parameters.AddWithValue("@userrole", "User");
-                cmd.Parameters.AddWithValue("@userregisterdate", DateTime.Now);
-                cmd.Parameters.AddWithValue("@usermail", textBox2.Text);
-
-                int rowsAffected = cmd.ExecuteNonQuery();
-
-                if (rowsAffected > 0)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Başarıyla kayıt gerçekleştirdiniz. Giriş sayfasına yönlendiriliyorsunuz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
-                    Form1 giris = new Form1();
-                    giris.Show();
+                    MessageBox.Show("Kayıt sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Kayıt sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                if (con.State == ConnectionState.Open)
+                finally
                 {
+                    if (con.State == ConnectionState.Open)
                     con.Close();
-                }
             }
         }
 
-        private void KayıtPanel_Load(object sender, EventArgs e)
-        {
-
-        }
+        private void textBox1_TextChanged(object sender, EventArgs e) { }
+        private void KayıtPanel_Load(object sender, EventArgs e) { }
     }
 }

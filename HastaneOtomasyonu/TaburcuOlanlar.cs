@@ -15,7 +15,6 @@ namespace HastaneOtomasyonu
     {
         SqlDataReader dr;
         SqlConnection con = new SqlConnection("Data Source=EMREE\\SQLEXPRESS;Initial Catalog=HastaneOtomasyonu;Integrated Security=True;");
-        İslemler islemler = new İslemler();
         public TaburcuOlanlar()
         {
             InitializeComponent();
