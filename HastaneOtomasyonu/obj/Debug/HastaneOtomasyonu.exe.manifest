@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HastaneOtomasyonu.exe" size="80808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HastaneOtomasyonu.exe" size="94632">
       <assemblyIdentity name="HastaneOtomasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nUthWXlf88vhEncozh2YdMeD4ZiRxFl6hB92UHCCmdM=</dsig:DigestValue>
+        <dsig:DigestValue>htAi75OYwMpeY5DSK2JGU4S9mEBReQ7Fk/B2xF4PcwE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -144,7 +144,6 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(167, 21);
             this.comboBox3.TabIndex = 9;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -154,7 +153,6 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Kayıt Oluştur.";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // saat
             // 
@@ -183,7 +181,6 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Ana Sayfaya Dön";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Randevu
             // 

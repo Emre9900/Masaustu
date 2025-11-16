@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HastaneOtomasyonu
@@ -16,7 +13,8 @@ namespace HastaneOtomasyonu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            // Uygulamayı Form1 (Giriş Ekranı) ile başlatıyoruz
+            Application.Run(new GirisPanel());
         }
     }
 }
