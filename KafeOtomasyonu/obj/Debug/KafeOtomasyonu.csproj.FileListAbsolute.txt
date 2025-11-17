@@ -1,0 +1,12 @@
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\bin\Debug\KafeOtomasyonu.exe.config
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\bin\Debug\KafeOtomasyonu.exe
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\bin\Debug\KafeOtomasyonu.pdb
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.LoginPanel.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.Properties.Resources.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.csproj.GenerateResource.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.exe
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.pdb
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.exe.config
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.DashBoard.resources

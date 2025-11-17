@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KafeOtomasyonu
 {
-    public partial class Form1 : Form
+    public partial class Masalar : Form
     {
-        public Form1()
+        public Masalar()
         {
             InitializeComponent();
         }
