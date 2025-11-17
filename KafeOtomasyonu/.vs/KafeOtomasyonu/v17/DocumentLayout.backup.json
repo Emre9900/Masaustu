@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C5D09E0-89CD-4591-91CB-11E3C379EFED}|KafeOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\kafeotomasyonu\\masalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C5D09E0-89CD-4591-91CB-11E3C379EFED}|KafeOtomasyonu.csproj|solutionrelative:masalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C5D09E0-89CD-4591-91CB-11E3C379EFED}|KafeOtomasyonu.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\kafeotomasyonu\\loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C5D09E0-89CD-4591-91CB-11E3C379EFED}|KafeOtomasyonu.csproj|solutionrelative:loginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -22,11 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Masalar.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\Masalar.cs",
+              "RelativeDocumentMoniker": "Masalar.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\Masalar.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Masalar.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T19:00:22.841Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DashBoard.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard.cs",
@@ -38,12 +54,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginPanel.cs",
               "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs",
               "RelativeDocumentMoniker": "LoginPanel.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs*",
-              "RelativeToolTip": "LoginPanel.cs*",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs",
+              "RelativeToolTip": "LoginPanel.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T18:12:47.833Z",
@@ -51,12 +67,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginPanel.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs",
               "RelativeDocumentMoniker": "LoginPanel.cs",
-              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "LoginPanel.cs [Tasar\u0131m]*",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\KafeOtomasyonu\\LoginPanel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "LoginPanel.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T18:17:54.88Z",
               "EditorCaption": " [Tasar\u0131m]"
