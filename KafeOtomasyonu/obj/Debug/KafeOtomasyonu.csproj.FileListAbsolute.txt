@@ -10,3 +10,5 @@ C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOto
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.pdb
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.exe.config
 C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.DashBoard.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.Masalar.resources
+C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\KafeOtomasyonu\obj\Debug\KafeOtomasyonu.SiparisAl.resources

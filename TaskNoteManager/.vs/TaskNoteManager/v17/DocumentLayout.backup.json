@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\TaskNoteManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9423A8-F89F-4397-9632-C2B0C7FA4353}|TaskNoteManager.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\tasknotemanager\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD9423A8-F89F-4397-9632-C2B0C7FA4353}|TaskNoteManager.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9423A8-F89F-4397-9632-C2B0C7FA4353}|TaskNoteManager.csproj|c:\\users\\ek247\\onedrive\\masa\u00FCst\u00FC\\kod\\masaustu\\tasknotemanager\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD9423A8-F89F-4397-9632-C2B0C7FA4353}|TaskNoteManager.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\TaskNoteManager\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "DashboardForm.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\TaskNoteManager\\DashboardForm.cs",
+              "RelativeToolTip": "DashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:13:11.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\TaskNoteManager\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "DashboardForm.cs",
+              "ToolTip": "C:\\Users\\ek247\\OneDrive\\Masa\u00FCst\u00FC\\Kod\\Masaustu\\TaskNoteManager\\DashboardForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "DashboardForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:01:10.184Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

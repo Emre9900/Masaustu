@@ -16,5 +16,20 @@ namespace KafeOtomasyonu
         {
             InitializeComponent();
         }
+        SiparisAl siparisal = new SiparisAl();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            siparisal.Show();
+            this.Hide();
+        }
+
+        private void DashBoard_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void kontrol()
+        {
+
+        }
     }
 }

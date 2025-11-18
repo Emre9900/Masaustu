@@ -59,6 +59,9 @@
             // cmbRoles
             // 
             this.cmbRoles.FormattingEnabled = true;
+            this.cmbRoles.Items.AddRange(new object[] {
+            "Admin",
+            "Garson"});
             this.cmbRoles.Location = new System.Drawing.Point(111, 115);
             this.cmbRoles.Name = "cmbRoles";
             this.cmbRoles.Size = new System.Drawing.Size(121, 21);
@@ -100,9 +103,9 @@
             // 
             // btnTheme
             // 
-            this.btnTheme.Location = new System.Drawing.Point(69, 236);
+            this.btnTheme.Location = new System.Drawing.Point(15, 192);
             this.btnTheme.Name = "btnTheme";
-            this.btnTheme.Size = new System.Drawing.Size(101, 23);
+            this.btnTheme.Size = new System.Drawing.Size(217, 23);
             this.btnTheme.TabIndex = 7;
             this.btnTheme.Text = "Black Theme";
             this.btnTheme.UseVisualStyleBackColor = true;
@@ -112,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(266, 271);
+            this.ClientSize = new System.Drawing.Size(247, 234);
             this.Controls.Add(this.btnTheme);
             this.Controls.Add(this.btnGiris);
             this.Controls.Add(this.txtKullaniciAdi);
