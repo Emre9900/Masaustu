@@ -12,6 +12,24 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ek247\OneDrive\Masaüstü\Kod\Masaustu\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/HastaneOtomasyonu/</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +50,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8D27CCF40106F26A428F2038473C3063B3C62B86</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HastaneOtomasyonu_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,14 +76,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="DoktorIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorIslemleri.Designer.cs">
+      <DependentUpon>DoktorIslemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KalanHastalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KalanHastalar.Designer.cs">
+      <DependentUpon>KalanHastalar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Randevu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +113,12 @@
     </Compile>
     <Compile Include="Secenekler.Designer.cs">
       <DependentUpon>Secenekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaburcuOlanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaburcuOlanlar.Designer.cs">
+      <DependentUpon>TaburcuOlanlar.cs</DependentUpon>
     </Compile>
     <Compile Include="_to_do_listDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -82,27 +136,33 @@
     <Compile Include="İslemler.Designer.cs">
       <DependentUpon>İslemler.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DoktorIslemleri.resx">
+      <DependentUpon>DoktorIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KalanHastalar.resx">
+      <DependentUpon>KalanHastalar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Randevu.resx">
       <DependentUpon>Randevu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Secenekler.resx">
       <DependentUpon>Secenekler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TaburcuOlanlar.resx">
+      <DependentUpon>TaburcuOlanlar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="İslemler.resx">
       <DependentUpon>İslemler.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HastaneOtomasyonu_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -137,6 +197,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\login-panel-heartpng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\LoginPanel\login-panel-heartpng.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
